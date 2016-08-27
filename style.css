@@ -1,0 +1,95 @@
+html, body {
+	height: 100%;
+}
+#orb{
+	width: 300px;
+	height: 300px;
+	border-radius: 100%;
+	padding: 20px;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+#sky {
+	height: 100%;
+	width: 100%;
+}
+#sky p {
+	text-align: center;
+}
+
+/*Sun and Moon toggle*/
+.sun {
+	background-color: #ffdd00;
+	border: 10px solid #f1c40f;
+}
+.sun:hover{
+	border: 20px solid #F1C475;
+}
+
+.moon {
+	background-color: #bdc3c7;
+	border: 10px solid #eaeff2;
+}
+.moon:hover{
+	border: 20px solid #eaeff2;
+}
+/* night and day toggel */
+.night {
+	background-color: #2c3e50;
+	background-image: url('http://s8.favim.com/orig/150912/drawing-night-sky-anime-Favim.com-3285275.jpg');
+}
+
+.day{
+	background-color: #37d8e6;
+	background-image: url('http://spaceplace.nasa.gov/review/blue-sky/bluesky.en.png');
+}
+
+.moonspots1{
+	height: 40px;
+	width: 40px;
+	border-radius: 100%;
+	float: right;
+	margin: 20px; 
+}
+.moonspots2{
+	height: 80px;
+	width: 80px;
+	border-radius: 100%;
+	float: right;
+	margin: 20px; 
+}
+.moonspots3{
+	height: 180px;
+	width: 180px;
+	border-radius: 100%;
+	float: right;
+	margin: 20px; 
+}
+
+.visible {
+	background-color: #eaeff2;
+}
+
+
+.mar {
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	padding: 20px;
+    margin: auto;
+    position: absolute;
+    top: 30px;
+    left: 16px;
+    background-image: url('https://www.spaceanswers.com/wp-content/uploads/2012/06/Mars-red-surface.jpg');
+}
+
+
+
+
+
+
+
+
+
